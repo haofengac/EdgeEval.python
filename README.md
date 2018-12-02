@@ -1,2 +1,12 @@
 # EdgeEval.python
-Python implementation of edge evaluation by https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/code/
+
+## Python
+
+### To build:
+`cd python`
+
+`python setup.py build_ext -i -I '../include'`
+
+### To run:
+
+`python demo.py`
