@@ -1,9 +1,12 @@
 # EdgeEval.python
 
-## To setup:
-`sh setup.sh`
+## Python
 
-## To run:
-`cd EdgeEval`
+### To build:
+`cd python`
 
-`python test.py`
+`python setup.py build_ext -i -I '../include'`
+
+### To run:
+
+`python demo.py`
