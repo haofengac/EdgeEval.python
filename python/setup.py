@@ -5,8 +5,8 @@ import numpy
 ext = Extension("EdgeEval",
                 sources=[
                 	"EdgeEval.pyx",
-                	"correspondPixels.cc",
-                	"match.cc",
+                	"../Util/correspondPixels.cc",
+                	"../Util/match.cc",
                 	"../CSA++/csa.cc",
                 	"../Util/Exception.cc",
                 	"../Util/kofn.cc",
